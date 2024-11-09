@@ -1,0 +1,136 @@
+/* Navbar Style */
+.form-control::placeholder {
+    color: green;
+}
+
+/* Home */
+.container{
+    display: flex;
+    height: 817px;
+    background-image: url(1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    color: black;
+    font-family: "arial";
+    margin: 10px 0 0 10px;
+    display: flex;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    animation: animtext 4s steps(80, end);
+    transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+    flex-direction: row;
+    justify-content: center;
+}
+@keyframes animtext { 
+ from {
+     width: 0;
+    transition: all 2s ease-in-out;
+ } 
+}
+
+.p{
+    font-size: 18px;
+}
+
+/* About Us */
+img {
+    width: 385px;
+    height: 401px;
+    opacity: 1;
+    border-radius: 9px;
+    object-fit: contain;
+}
+.A1{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+
+button{
+    width: 130px;
+}
+
+/* Out Services */
+.card{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+h2{
+    color: black;
+    font-family: "arial";
+    font-size: 3em;
+    margin: 10px 0 0 10px;
+    display: flex;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    animation: animtext 5s steps(80, end);
+    transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+    flex-direction: row;
+    justify-content: center;
+}
+@keyframes animtext { 
+ from {
+     width: 0;
+    transition: all 2s ease-in-out;
+ } 
+}
+
+
+.contact_saction_layout_Padding{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.row-2{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+
+.container-1{
+    display: contents;
+   
+}
+
+@media (max-width: 1200px) {
+    .row-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .col-sm-3 {
+        height: 386px;
+    }
+    .container h1{
+        font-size: 1.5em;
+    }
+}
+#mynavbar{
+    display: flex;
+    flex-direction: column;
+    color: darkcyan;
+}
+
+span {
+    color: red;
+    font-size: 25px;
+}
